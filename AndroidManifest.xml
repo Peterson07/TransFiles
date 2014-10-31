@@ -22,6 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity  android:name="MenuTab" android:configChanges="orientation"></activity>> 
+        <activity  android:name="SettingTab" android:configChanges="orientation"></activity>
     </application>
 
 </manifest>
