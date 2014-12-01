@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="opciones de Configuracion">
+        
+        <ListPreference
+            android:key="opc1"
+            android:title="Preferencia 1"
+            android:summary="Diferentes colores para la app"
+            android:dialogTitle="Seleccione Tema"
+            android:entries="@array/theme"
+            android:entryValues="@array/themeCode" />
+        <ListPreference
+            android:key="opc2"
+            android:title="Preferencia 2"
+            android:summary="Diferentes sonidos para la app"
+            android:dialogTitle="Seleccione sonido"
+            android:entries="@array/sound"
+            android:entryValues="@array/soundCode" />
+    </PreferenceCategory>
+   
+</PreferenceScreen>

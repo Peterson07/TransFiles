@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string-array name="theme">
+      <item>Defecto</item>
+      <item>Oscuro</item>
+   </string-array>
+   <string-array name="themeCode">
+      <item>default</item>
+      <item>dark</item>
+   </string-array>
+   
+   <string-array name="sound">
+      <item>Defecto</item>
+      <item>silencio</item>
+   </string-array>
+   <string-array name="soundCode">
+      <item>default</item>
+      <item>silence</item>
+   </string-array>
+</resources>
